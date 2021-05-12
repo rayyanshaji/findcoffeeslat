@@ -1,0 +1,55 @@
+html, body, #map {
+  		height      : 100%;
+  		margin      : 0px;
+  		padding     : 0px;
+  	}
+  	.top {
+		width               : 55%;
+		position            : fixed;
+		background-color    : #f7f7f7;
+		padding-top         : 10px;
+		padding-bottom      : 10px;
+		padding-left        : 3%;
+		padding-right       : 3%;
+		border-bottom       : 1px solid #b2b2b2;
+	}
+
+	.items {
+		background-color: #ffffff;
+		width           : 50%;
+		height          : 50%;
+		float           : left;
+	 }
+
+	.app {
+		margin-left : 25px;
+		margin-right: 25px;
+		height      : 170%;
+		top:		: 0;
+		bottom:     : 0;
+		position    : sticky;
+	    overflow-y  : scroll;
+		overflow-x  : hidden;
+	}
+
+	.app_top {
+	    display         : flex;
+	    padding         : 5px;
+	}
+
+	.app_top img {
+	    float           : left;
+	    height          : 190px;
+	    width           : 200px;
+	    display         : block;
+	    margin          : 0 auto;
+	}
+
+	.app_text {
+		 display        : block;
+		 padding        : 5px;
+	}
+	#sortBy {
+		padding: 2px;
+		margin-bottom: 10px;
+	}
